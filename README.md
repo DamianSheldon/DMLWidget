@@ -1,0 +1,29 @@
+# DMLSegmentedControl
+
+[![CI Status](http://img.shields.io/travis/Meiliang Dong/DMLSegmentedControl.svg?style=flat)](https://travis-ci.org/Meiliang Dong/DMLSegmentedControl)
+[![Version](https://img.shields.io/cocoapods/v/DMLSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DMLSegmentedControl)
+[![License](https://img.shields.io/cocoapods/l/DMLSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DMLSegmentedControl)
+[![Platform](https://img.shields.io/cocoapods/p/DMLSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DMLSegmentedControl)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+DMLSegmentedControl is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "DMLSegmentedControl"
+```
+
+## Author
+
+Meiliang Dong, dongmeilianghy@sina.com
+
+## License
+
+DMLSegmentedControl is available under the MIT license. See the LICENSE file for more info.
