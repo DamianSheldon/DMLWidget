@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/DMLSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DMLSegmentedControl)
 [![Platform](https://img.shields.io/cocoapods/p/DMLSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DMLSegmentedControl)
 
-![Screenshot0][img0]
+![Screenshot0](./Screenshots/Screenshot0.png)
 
 ## Example
 
