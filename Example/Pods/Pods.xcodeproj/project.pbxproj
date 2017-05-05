@@ -13,6 +13,8 @@
 		3C545FD133F684BC76BFA44D98011B8F /* DMLSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DB430E9620A3D8655F0BD4F4BA2B69DD /* DMLSegmentedControl.m */; };
 		3F8C12C8A4E01CCBB7604531CE602F84 /* Pods-DMLSegmentedControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049F86F223C2B32D4BE7A8E3A733D9C /* Pods-DMLSegmentedControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4754F111375EBD0E141A6B5C433A5DC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		588F0B131EBC29E30067BEA5 /* DMLSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 588F0B111EBC29E30067BEA5 /* DMLSlider.h */; };
+		588F0B141EBC29E30067BEA5 /* DMLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 588F0B121EBC29E30067BEA5 /* DMLSlider.m */; };
 		9ED86A0C3AA02E0ED00EAF5E965DF9CB /* Pods-DMLSegmentedControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFCAE8CC075DCE8BD1EC0BF94A55250 /* Pods-DMLSegmentedControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A16BDDC17E6221D8B226760A44C12D96 /* DMLSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48587157AD03EA0C2B552C21C8DBA1F4 /* DMLSegmentedControl-dummy.m */; };
 		B2917A4FC0D3D2D82564013F026CAF68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -44,6 +46,8 @@
 		48587157AD03EA0C2B552C21C8DBA1F4 /* DMLSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMLSegmentedControl-dummy.m"; sourceTree = "<group>"; };
 		488D567672F6D66FCE87827F940B8C5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A3AEC3B0406D8E4F9CB603D930B0D58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588F0B111EBC29E30067BEA5 /* DMLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLSlider.h; sourceTree = "<group>"; };
+		588F0B121EBC29E30067BEA5 /* DMLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLSlider.m; sourceTree = "<group>"; };
 		5C53F4ABB58B091368F7DE2E761FA415 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F1C437D91BD957E06D3D023D4B29BA8 /* DMLSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMLSegmentedControl.h; sourceTree = "<group>"; };
 		9049F86F223C2B32D4BE7A8E3A733D9C /* Pods-DMLSegmentedControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMLSegmentedControl_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 			children = (
 				6F1C437D91BD957E06D3D023D4B29BA8 /* DMLSegmentedControl.h */,
 				DB430E9620A3D8655F0BD4F4BA2B69DD /* DMLSegmentedControl.m */,
+				588F0B111EBC29E30067BEA5 /* DMLSlider.h */,
+				588F0B121EBC29E30067BEA5 /* DMLSlider.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588F0B131EBC29E30067BEA5 /* DMLSlider.h in Headers */,
 				F72AD52E98F679C4358913C03E2B08A2 /* DMLSegmentedControl-umbrella.h in Headers */,
 				1D1DEA1B1E50B064F1E0358FBD13C4B2 /* DMLSegmentedControl.h in Headers */,
 			);
@@ -341,6 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588F0B141EBC29E30067BEA5 /* DMLSlider.m in Sources */,
 				A16BDDC17E6221D8B226760A44C12D96 /* DMLSegmentedControl-dummy.m in Sources */,
 				3C545FD133F684BC76BFA44D98011B8F /* DMLSegmentedControl.m in Sources */,
 			);
