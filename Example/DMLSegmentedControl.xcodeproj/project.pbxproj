@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Meiliang Dong";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 98WR9248J9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -513,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 98WR9248J9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMLSegmentedControl/DMLSegmentedControl-Prefix.pch";
 				INFOPLIST_FILE = "DMLSegmentedControl/DMLSegmentedControl-Info.plist";
@@ -529,6 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 98WR9248J9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMLSegmentedControl/DMLSegmentedControl-Prefix.pch";
 				INFOPLIST_FILE = "DMLSegmentedControl/DMLSegmentedControl-Info.plist";

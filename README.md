@@ -1,6 +1,5 @@
 # DMLSegmentedControl
 
-[![CI Status](http://img.shields.io/travis/Meiliang Dong/DMLSegmentedControl.svg?style=flat)](https://travis-ci.org/Meiliang Dong/DMLSegmentedControl)
 [![Version](https://img.shields.io/cocoapods/v/DMLSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DMLSegmentedControl)
 [![License](https://img.shields.io/cocoapods/l/DMLSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DMLSegmentedControl)
 [![Platform](https://img.shields.io/cocoapods/p/DMLSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DMLSegmentedControl)
