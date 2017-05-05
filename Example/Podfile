@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DMLWidget_Example' do
+  pod 'DMLWidget', :path => '../'
+
+  target 'DMLWidget_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

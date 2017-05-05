@@ -1,0 +1,23 @@
+PODS:
+  - DMLWidget (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DMLWidget (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DMLWidget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DMLWidget: 0025e5ccd8ab384b3ad48d4fdd8804bebcdf0d97
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 7ce4f0fcffa0d38942e5ac8be5fef0b368d76454
+
+COCOAPODS: 1.2.1

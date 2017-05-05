@@ -1,0 +1,6 @@
+framework module DMLWidget {
+  umbrella header "DMLWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}
