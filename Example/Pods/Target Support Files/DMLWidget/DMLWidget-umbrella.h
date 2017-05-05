@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "DMLSegmentedControl.h"
+#import "DMLSlider.h"
 
 FOUNDATION_EXPORT double DMLWidgetVersionNumber;
 FOUNDATION_EXPORT const unsigned char DMLWidgetVersionString[];

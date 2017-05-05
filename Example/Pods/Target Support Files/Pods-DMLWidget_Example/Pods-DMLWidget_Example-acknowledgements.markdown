@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## DMLWidget
 
-Copyright (c) 2017 DamianSheldon <dongmeilianghy@sina.com>
+Copyright (c) 2016 Meiliang Dong <dongmeilianghy@sina.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
