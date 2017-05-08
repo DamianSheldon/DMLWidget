@@ -52,6 +52,8 @@
         [_segmentedControl setTranslatesAutoresizingMaskIntoConstraints:NO];
         
         [_segmentedControl addTarget:self action:@selector(segmentedContolValueChanged) forControlEvents:UIControlEventValueChanged];
+        
+        _segmentedControl.tintColor = [UIColor colorWithRed:0.3 green:0.68 blue:0.98 alpha:1.0];
     }
     return _segmentedControl;
 }
