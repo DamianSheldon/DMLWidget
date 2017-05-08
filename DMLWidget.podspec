@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DMLWidget'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A collection of custom UI elements to use on your Application.'
 
 # This description is used to generate tags and improve search results.
