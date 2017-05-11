@@ -1,8 +1,8 @@
 {
   "name": "DMLWidget",
-  "version": "0.1.0",
-  "summary": "A short description of DMLWidget.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.1",
+  "summary": "A collection of custom UI elements to use on your Application.",
+  "description": "A collection of custom UI elements to use on your Application. Every control be include as a subspec.",
   "homepage": "https://github.com/DamianSheldon/DMLWidget",
   "license": {
     "type": "MIT",
@@ -13,10 +13,21 @@
   },
   "source": {
     "git": "https://github.com/DamianSheldon/DMLWidget.git",
-    "tag": "0.1.0"
+    "tag": "0.2.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Classes/**/*"
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "subspecs": [
+    {
+      "name": "DMLSegmentedControl",
+      "source_files": "Classes/**/DMLSegmentedControl.{h,m}"
+    },
+    {
+      "name": "DMLSlider",
+      "source_files": "Classes/**/DMLSlider.{h,m}"
+    }
+  ]
 }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DMLWidget'
-  s.version          = '0.2.1'
+  s.version          = '0.3.0'
   s.summary          = 'A collection of custom UI elements to use on your Application.'
 
 # This description is used to generate tags and improve search results.
@@ -42,9 +42,17 @@ A collection of custom UI elements to use on your Application. Every control be 
 
   s.subspec 'DMLSegmentedControl' do |segmentedcontrol|
     segmentedcontrol.source_files = 'Classes/**/DMLSegmentedControl.{h,m}'
+    segmentedcontrol.frameworks = 'UIKit'
   end
 
   s.subspec 'DMLSlider' do |slider|
     slider.source_files = 'Classes/**/DMLSlider.{h,m}'
+    slider.frameworks = 'UIKit'
   end
+
+  s.subspec 'DMLCamPreviewView' do |campreviewview|
+    campreviewview.source_files = 'Classes/**/DMLCamPreviewView.{h,m}'
+    campreviewview.frameworks = 'UIKit', 'AVFoundation'
+  end
+
 end

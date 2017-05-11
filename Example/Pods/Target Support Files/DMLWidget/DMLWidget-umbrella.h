@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "DMLCamPreviewView.h"
+#import "DMLSegmentedControl.h"
+#import "DMLSlider.h"
+#import "DMLWidget.h"
 #import "DMLSegmentedControl.h"
 #import "DMLSlider.h"
 

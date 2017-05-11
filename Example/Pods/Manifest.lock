@@ -1,5 +1,9 @@
 PODS:
-  - DMLWidget (0.1.0)
+  - DMLWidget (0.2.1):
+    - DMLWidget/DMLSegmentedControl (= 0.2.1)
+    - DMLWidget/DMLSlider (= 0.2.1)
+  - DMLWidget/DMLSegmentedControl (0.2.1)
+  - DMLWidget/DMLSlider (0.2.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -15,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DMLWidget: fc4ac3fd3e70ae6cb9988504ac615336e1a4cdce
+  DMLWidget: 9d75ef4c64dbd44cdc0920706f2d32b8afa39c85
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: 7ce4f0fcffa0d38942e5ac8be5fef0b368d76454
