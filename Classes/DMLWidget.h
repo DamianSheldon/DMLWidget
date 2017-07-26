@@ -12,5 +12,6 @@
 #import "DMLSegmentedControl.h"
 #import "DMLSlider.h"
 #import "DMLCamPreviewView.h"
+#import "DMLCollectionViewCell.h"
 
 #endif /* DMLWidget_h */

@@ -11,9 +11,11 @@
 #endif
 
 #import "DMLCamPreviewView.h"
+#import "DMLCollectionViewCell.h"
 #import "DMLSegmentedControl.h"
 #import "DMLSlider.h"
 #import "DMLWidget.h"
+#import "DMLCamPreviewView.h"
 #import "DMLSegmentedControl.h"
 #import "DMLSlider.h"
 
