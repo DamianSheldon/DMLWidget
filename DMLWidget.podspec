@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'DMLWidget'
-    s.version          = '0.4.0'
+    s.version          = '0.5.0'
     s.summary          = 'A collection of custom UI elements.'
 
     # This description is used to generate tags and improve search results.
@@ -58,5 +58,10 @@ Pod::Spec.new do |s|
     s.subspec 'DMLCollectionViewCell' do |collectionviewcell|
         collectionviewcell.source_files = 'Classes/**/DMLCollectionViewCell.{h,m}'
         collectionviewcell.frameworks = 'UIKit'
+    end
+
+    s.subspec 'DMLCollectionHeaderView' do |collectionheaderview|
+        collectionheaderview.source_files = 'Classes/**/DMLCollectionHeaderView.{h,m}'
+        collectionheaderview.frameworks = 'UIKit'
     end
 end

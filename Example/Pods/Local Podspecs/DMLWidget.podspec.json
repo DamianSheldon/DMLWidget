@@ -1,8 +1,8 @@
 {
   "name": "DMLWidget",
-  "version": "0.3.0",
-  "summary": "A collection of custom UI elements to use on your Application.",
-  "description": "A collection of custom UI elements to use on your Application. Every control be include as a subspec.",
+  "version": "0.4.0",
+  "summary": "A collection of custom UI elements.",
+  "description": "DMLWidget is a repository collecte custom UI elements that common in development. Each element as a subspec, so it can be installed independent.",
   "homepage": "https://github.com/DamianSheldon/DMLWidget",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/DamianSheldon/DMLWidget.git",
-    "tag": "0.3.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -38,6 +38,11 @@
         "UIKit",
         "AVFoundation"
       ]
+    },
+    {
+      "name": "DMLCollectionViewCell",
+      "source_files": "Classes/**/DMLCollectionViewCell.{h,m}",
+      "frameworks": "UIKit"
     }
   ]
 }

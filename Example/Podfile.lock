@@ -1,11 +1,13 @@
 PODS:
-  - DMLWidget (0.3.0):
-    - DMLWidget/DMLCamPreviewView (= 0.3.0)
-    - DMLWidget/DMLSegmentedControl (= 0.3.0)
-    - DMLWidget/DMLSlider (= 0.3.0)
-  - DMLWidget/DMLCamPreviewView (0.3.0)
-  - DMLWidget/DMLSegmentedControl (0.3.0)
-  - DMLWidget/DMLSlider (0.3.0)
+  - DMLWidget (0.4.0):
+    - DMLWidget/DMLCamPreviewView (= 0.4.0)
+    - DMLWidget/DMLCollectionViewCell (= 0.4.0)
+    - DMLWidget/DMLSegmentedControl (= 0.4.0)
+    - DMLWidget/DMLSlider (= 0.4.0)
+  - DMLWidget/DMLCamPreviewView (0.4.0)
+  - DMLWidget/DMLCollectionViewCell (0.4.0)
+  - DMLWidget/DMLSegmentedControl (0.4.0)
+  - DMLWidget/DMLSlider (0.4.0)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -21,7 +23,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DMLWidget: e6f2422022349d555abc0d0f1b04673a184970bf
+  DMLWidget: dd6bab6ba75bc3e02821720d03c333f6bb13df7e
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: 7ce4f0fcffa0d38942e5ac8be5fef0b368d76454
