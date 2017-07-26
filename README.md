@@ -1,8 +1,6 @@
-# DMLSegmentedControl
+# DMLWidget
 
-[![Version](https://img.shields.io/cocoapods/v/DMLSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DMLSegmentedControl)
-[![License](https://img.shields.io/cocoapods/l/DMLSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DMLSegmentedControl)
-[![Platform](https://img.shields.io/cocoapods/p/DMLSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/DMLSegmentedControl)
+DMLWidget is a repository collecte custom UI elements that common in development. Each element as a subspec, so it can be installed independent.
 
 ![Screenshot0](./Screenshots/Screenshot0.png)
 
@@ -17,11 +15,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-DMLSegmentedControl is available through [CocoaPods](http://cocoapods.org). To install
+DMLWidget is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "DMLSegmentedControl"
+pod "DMLWidget"
 ```
 
 ## Author
@@ -30,4 +28,4 @@ Meiliang Dong, dongmeilianghy@sina.com
 
 ## License
 
-DMLSegmentedControl is available under the MIT license. See the LICENSE file for more info.
+DMLWidget is available under the MIT license. See the LICENSE file for more info.

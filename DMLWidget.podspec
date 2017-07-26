@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
     s.name             = 'DMLWidget'
     s.version          = '0.4.0'
-    s.summary          = 'A collection of custom UI elements to use on your Application.'
+    s.summary          = 'A collection of custom UI elements.'
 
     # This description is used to generate tags and improve search results.
     #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     #   * Finally, don't worry about the indent, CocoaPods strips it!
 
     s.description      = <<-DESC
-    A collection of custom UI elements to use on your Application. Every control be include as a subspec.
+    DMLWidget is a repository collecte custom UI elements that common in development. Each element as a subspec, so it can be installed independent.
                        DESC
 
     s.homepage         = 'https://github.com/DamianSheldon/DMLWidget'
