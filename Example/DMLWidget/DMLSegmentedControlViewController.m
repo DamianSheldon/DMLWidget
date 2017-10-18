@@ -8,15 +8,15 @@
 
 #import <DMLWidget/DMLSegmentedControl.h>
 
-#import "DMLViewController.h"
+#import "DMLSegmentedControlViewController.h"
 
-@interface DMLViewController ()
+@interface DMLSegmentedControlViewController ()
 
 @property (nonatomic) DMLSegmentedControl *segmentedControl;
 
 @end
 
-@implementation DMLViewController
+@implementation DMLSegmentedControlViewController
 
 - (void)viewDidLoad
 {

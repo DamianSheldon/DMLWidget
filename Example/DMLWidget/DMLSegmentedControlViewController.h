@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface DMLViewController : UIViewController
+@interface DMLSegmentedControlViewController : UIViewController
 
 @end

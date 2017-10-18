@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		30D0F0C9CA50DAEF5B313C25 /* Pods_DMLWidget_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DB2490288D80C3A6F31324 /* Pods_DMLWidget_Example.framework */; };
+		58DB1F531F974B0900AF2A84 /* DMLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DB1F521F974B0900AF2A84 /* DMLMainViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* DMLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* DMLAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* DMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* DMLViewController.m */; };
+		6003F5A7195388D20070C39A /* DMLSegmentedControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* DMLSegmentedControlViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		4DC1986CA4620FA77A48B8D3 /* Pods_DMLWidget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMLWidget_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DB1F511F974B0900AF2A84 /* DMLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLMainViewController.h; sourceTree = "<group>"; };
+		58DB1F521F974B0900AF2A84 /* DMLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLMainViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DMLWidget_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMLWidget_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,8 +51,8 @@
 		6003F59B195388D20070C39A /* DMLWidget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DMLWidget-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* DMLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMLAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* DMLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMLAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* DMLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMLViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* DMLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMLViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* DMLSegmentedControlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMLSegmentedControlViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* DMLSegmentedControlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMLSegmentedControlViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* DMLWidget_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMLWidget_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -135,8 +138,10 @@
 				6003F59C195388D20070C39A /* DMLAppDelegate.h */,
 				6003F59D195388D20070C39A /* DMLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* DMLViewController.h */,
-				6003F5A6195388D20070C39A /* DMLViewController.m */,
+				6003F5A5195388D20070C39A /* DMLSegmentedControlViewController.h */,
+				6003F5A6195388D20070C39A /* DMLSegmentedControlViewController.m */,
+				58DB1F511F974B0900AF2A84 /* DMLMainViewController.h */,
+				58DB1F521F974B0900AF2A84 /* DMLMainViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -398,8 +403,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* DMLAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* DMLViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* DMLSegmentedControlViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				58DB1F531F974B0900AF2A84 /* DMLMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
