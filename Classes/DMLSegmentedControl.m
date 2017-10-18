@@ -40,29 +40,15 @@
         blue = (1 - blue) * factor + blue;
     }
     
-    if (red < 0) {
-        red = 0;
-    }
+    // Restrict color compoent to [0, 1]
+    red = MAX(0, red);
+    red = MIN(1, red);
     
-    if (red > 1) {
-        red = 1;
-    }
+    green = MAX(0, green);
+    green = MIN(1, green);
     
-    if (green < 0) {
-        green = 0;
-    }
-    
-    if (green > 1) {
-        green = 1;
-    }
-    
-    if (blue < 0) {
-        blue = 0;
-    }
-    
-    if (blue > 1) {
-        blue = 1;
-    }
+    blue = MAX(0, blue);
+    blue = MIN(1, blue);
     
     return [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
 }
