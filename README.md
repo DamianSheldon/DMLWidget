@@ -2,7 +2,15 @@
 
 DMLWidget is a repository collecte custom UI elements that common in development. Each element as a subspec, so it can be installed independent.
 
+## UI Elements
+
+* DMLCamPreviewView
+* DMLCollectionHeaderView
+* DMLCollectionViewCell
+* DMLSegmentedControl
 ![Screenshot0](./Screenshots/Screenshot0.png)
+
+* DMLSlider
 
 ## Example
 
