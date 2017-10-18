@@ -165,8 +165,6 @@ static float const sColorLightFactor = 0.4;
     self.hairLine.frame = frame;
     
     self.hairLine.layer.cornerRadius = CGRectGetHeight(self.hairLine.frame) * 0.5;
-    
-    // 0.33 0.69 0.98 0.56 0.80 0.97 = 0.23 0.11 0.01
 }
 
 - (void)setTintColor:(UIColor *)tintColor
