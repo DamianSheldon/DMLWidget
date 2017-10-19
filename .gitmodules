@@ -1,0 +1,3 @@
+[submodule "spacecommander"]
+	path = spacecommander
+	url = https://github.com/square/spacecommander.git
