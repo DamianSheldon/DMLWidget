@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface DMLCollectionViewCell : UICollectionViewCell
 
 @property (nonatomic, readonly) UIImageView *imageView;

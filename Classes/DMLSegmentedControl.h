@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface DMLSegmentedControl : UIControl
 
-@property(nonatomic, readonly) NSUInteger numberOfSegments;
-@property(nonatomic) NSInteger selectedSegmentIndex;
+@property (nonatomic, readonly) NSUInteger numberOfSegments;
+@property (nonatomic) NSInteger selectedSegmentIndex;
 
 - (instancetype)initWithItems:(NSArray<NSString *> *)items;
 

@@ -10,20 +10,22 @@
 
 #import "DMLSegmentedControlViewController.h"
 
+
 @interface DMLSegmentedControlViewController ()
 
 @property (nonatomic) DMLSegmentedControl *segmentedControl;
 
 @end
 
+
 @implementation DMLSegmentedControlViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+
     [self.view addSubview:self.segmentedControl];
-    
+
     [self configureConstraintsForSegmentedControl];
 }
 
@@ -48,11 +50,11 @@
 - (DMLSegmentedControl *)segmentedControl
 {
     if (!_segmentedControl) {
-        _segmentedControl = [[DMLSegmentedControl alloc] initWithItems:@[@"8元", @"12元", @"16元"]];
+        _segmentedControl = [[DMLSegmentedControl alloc] initWithItems:@[ @"8元", @"12元", @"16元" ]];
         [_segmentedControl setTranslatesAutoresizingMaskIntoConstraints:NO];
-        
+
         [_segmentedControl addTarget:self action:@selector(segmentedContolValueChanged) forControlEvents:UIControlEventValueChanged];
-        
+
         _segmentedControl.tintColor = [UIColor colorWithRed:0.3 green:0.68 blue:0.98 alpha:1.0];
     }
     return _segmentedControl;

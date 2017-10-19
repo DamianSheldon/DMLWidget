@@ -10,26 +10,27 @@
 
 #import "DMLCamPreviewView.h"
 
+
 @implementation DMLCamPreviewView
 
 + (Class)layerClass
 {
-	return [AVCaptureVideoPreviewLayer class];
+    return [AVCaptureVideoPreviewLayer class];
 }
 
 - (AVCaptureVideoPreviewLayer *)videoPreviewLayer
 {
-	return (AVCaptureVideoPreviewLayer *)self.layer;
+    return (AVCaptureVideoPreviewLayer *)self.layer;
 }
 
 - (AVCaptureSession *)session
 {
-	return self.videoPreviewLayer.session;
+    return self.videoPreviewLayer.session;
 }
 
 - (void)setSession:(AVCaptureSession *)session
 {
-	self.videoPreviewLayer.session = session;
+    self.videoPreviewLayer.session = session;
 }
 
 @end

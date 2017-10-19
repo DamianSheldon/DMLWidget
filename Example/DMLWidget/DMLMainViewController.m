@@ -9,7 +9,7 @@
 #import "DMLMainViewController.h"
 #import "DMLSegmentedControlViewController.h"
 
-static NSString * const sCellId = @"Cell";
+static NSString *const sCellId = @"Cell";
 
 typedef NS_ENUM(NSInteger, DMLWidgetElement) {
     DMLWidgetElementCamPreview = 0,
@@ -19,7 +19,8 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
     DMLWidgetElementSlider
 };
 
-@interface DMLMainViewController ()<UITableViewDataSource, UITableViewDelegate>
+
+@interface DMLMainViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic) UITableView *tableView;
 
@@ -28,15 +29,17 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
 
 @end
 
+
 @implementation DMLMainViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    
+
     self.title = @"DMLWidget";
-    
+
     self.automaticallyAdjustsScrollViewInsets = NO;
-    
+
     [self.view addSubview:self.tableView];
     [self configureConstraintsForTableView];
 }
@@ -51,10 +54,10 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:sCellId forIndexPath:indexPath];
-    
+
     NSString *elementName = self.elementNames[@(indexPath.row)];
     cell.textLabel.text = elementName;
-    
+
     return cell;
 }
 
@@ -63,7 +66,7 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+
     Class clz = self.elementMappingExamples[@(indexPath.row)];
     if (clz) {
         UIViewController *vc = [clz new];
@@ -76,7 +79,7 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
 - (void)configureConstraintsForTableView
 {
     self.tableView.translatesAutoresizingMaskIntoConstraints = NO;
-    
+
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.tableView attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeft multiplier:1.0 constant:0]];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.tableView attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeRight multiplier:1.0 constant:0]];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.tableView attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.topLayoutGuide attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0]];
@@ -92,7 +95,7 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
         [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:sCellId];
         _tableView.dataSource = self;
         _tableView.delegate = self;
-        
+
         _tableView.tableFooterView = [UIView new];
     }
     return _tableView;
@@ -102,12 +105,12 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
 {
     if (!_elementNames) {
         _elementNames = @{
-                          @(DMLWidgetElementCamPreview): @"CamPreview",
-                          @(DMLWidgetElementCollectionHeaderView): @"CollectionHeaderView",
-                          @(DMLWidgetElementCollectionCell): @"CollectionCell",
-                          @(DMLWidgetElementSegmentedControl): @"SegmentedControl",
-                          @(DMLWidgetElementSlider): @"Slider"
-                          };
+            @(DMLWidgetElementCamPreview) : @"CamPreview",
+            @(DMLWidgetElementCollectionHeaderView) : @"CollectionHeaderView",
+            @(DMLWidgetElementCollectionCell) : @"CollectionCell",
+            @(DMLWidgetElementSegmentedControl) : @"SegmentedControl",
+            @(DMLWidgetElementSlider) : @"Slider"
+        };
     }
     return _elementNames;
 }
@@ -116,8 +119,8 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
 {
     if (!_elementMappingExamples) {
         _elementMappingExamples = @{
-                                    @(DMLWidgetElementSegmentedControl): [DMLSegmentedControlViewController class]
-                                    };
+            @(DMLWidgetElementSegmentedControl) : [DMLSegmentedControlViewController class]
+        };
     }
     return _elementMappingExamples;
 }

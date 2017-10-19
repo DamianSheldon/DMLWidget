@@ -8,11 +8,13 @@
 
 #import "DMLCollectionHeaderView.h"
 
+
 @interface DMLCollectionHeaderView ()
 
 @property (nonatomic) UILabel *textLabel;
 
 @end
+
 
 @implementation DMLCollectionHeaderView
 
@@ -22,7 +24,7 @@
     if (self) {
         _textLabel = [[UILabel alloc] initWithFrame:CGRectZero];
         [self addSubview:_textLabel];
-        
+
         _textLabel.translatesAutoresizingMaskIntoConstraints = NO;
         [self addConstraint:[NSLayoutConstraint constraintWithItem:_textLabel attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeLeft multiplier:1.0 constant:15]];
         [self addConstraint:[NSLayoutConstraint constraintWithItem:_textLabel attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeRight multiplier:1.0 constant:-15]];
@@ -35,7 +37,7 @@
 - (void)prepareForReuse
 {
     [super prepareForReuse];
-    
+
     self.textLabel.text = nil;
 }
 
