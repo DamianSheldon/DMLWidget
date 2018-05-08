@@ -5,7 +5,6 @@ target 'DMLWidget_Example' do
 
   target 'DMLWidget_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
+    
   end
 end
