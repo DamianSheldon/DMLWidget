@@ -7,28 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0177FE170950A49204E3FDCBDA7059B1 /* DMLSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 35995C2B9AC8678720917778908B3775 /* DMLSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06BB559B6F5A120A889A0828EE52D845 /* DMLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E776B57E31CF001CB5BEACC867424C3 /* DMLCollectionViewCell.m */; };
 		096AAC624AB52C8DE06D2FD85C7B5AE5 /* Pods-DMLWidget_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC42AF7E5FF33D438267B4BCD178DE2 /* Pods-DMLWidget_Example-dummy.m */; };
-		1A82862759F30CD13E58B7A9206D2871 /* DMLCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 172E2EFF416861B763C3905ED4DA36CB /* DMLCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		526EEC87AA3C7A16953B96F13BAE9E05 /* DMLSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B2CEC0DABD4B4D667E01C648DC6FF1 /* DMLSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		562D00FDFA334977E2A9EDA706F8D540 /* DMLCamPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 537D4746E0C8F1550257DDB29139DB25 /* DMLCamPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C28EF05BED3978D30D9C4E35B5D74A2 /* DMLCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = A910E1C33B1BE638BC81D56C1EA230FA /* DMLCamPreviewView.m */; };
-		5DFD641285A79A905AEF381334F1FABC /* DMLSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6F0D93ABD8B4F14824AEFD5ED9F075 /* DMLSegmentedControl.m */; };
-		66509D7858D3590E547762A3F84A23D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */; };
+		1635B1ED5951F321DB558E12E870A214 /* DMLWidget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53D0C770EC30A0364505B1A539D97AE9 /* DMLWidget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AAAC99819F604C55B34382555803D74 /* DMLCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB06EAB920B96076D3CEB97DE0321DB5 /* DMLCollectionHeaderView.m */; };
+		3FE620B183B180E1B559764C75497ED2 /* DMLCamPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B9018CEAA5B2ECEEC23E1E752B556D /* DMLCamPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		443BEDFC9882B97D23C6CB7CC5A43786 /* DMLSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FC1FAC11191197E2EDEA229400ED9D /* DMLSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49990535A91CAFBF958E0FADC9B21AE7 /* DMLCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 246EF6604D3153D4E01136BCFBF27088 /* DMLCamPreviewView.m */; };
+		50361BB362F72C0348E26FA4790A6B49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		662E107F66D9ED0EA643B7B2E0A11E0D /* DMLCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5276B628D3F2A4A37F9172A58ADFECD8 /* DMLCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C0D2FF2D60F169FD88DFBF1C27C6F88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
 		74380A5CE7DC1FA6034758D77D70D74E /* Pods-DMLWidget_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC1EAB2C35544D3670FBC0890AD5ACD /* Pods-DMLWidget_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76BC70CA9020827499B541D1F1719ECB /* DMLCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FCB4B46E5340720F9E84821EAB078A /* DMLCollectionHeaderView.m */; };
-		79338FFD23AEC0757D248C8B00FC5534 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
-		7D2C19EB89D85F5289A4FAE0BFC9887C /* DMLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCCB104C345D0AD02C23A8C799B45ED /* DMLSlider.m */; };
-		84B54FFEC97EEBE9465388E3E820E27B /* DMLWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E68212E13D03EFB3C328862CFCD7C9 /* DMLWidget.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4AEE71252BCCAD5E947689FD789B1C5 /* DMLWidget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7B2FC02AA34A230FE71981911ACB03 /* DMLWidget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77B773AD0541EC1C815533E5FD1B5C44 /* DMLSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FA7C9577D36EEB1054E6D47ED9342 /* DMLSegmentedControl.m */; };
+		A4301A90F61C37BD98EE72DAC6A6D51B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */; };
 		ADF409C4E2C44F4E1BDCB5A540E7669D /* Pods-DMLWidget_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B302A7F4208B82C70DC6D75E79C321 /* Pods-DMLWidget_Tests-dummy.m */; };
-		C68D976FE4D0DEE7A950839ECF23B47F /* DMLWidget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4689BEEF5F4B5B5B5DDF75FBF65E1B78 /* DMLWidget-dummy.m */; };
-		DFF0D62275696F391DB3EB3FCF0EFD55 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */; };
-		EACE2DD90D23BD2B862541BA85D04686 /* DMLCollectionHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6775A0E9BB8F7186F640A4BEE89808CB /* DMLCollectionHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED1911238BD1D66C16E96C8EFBC93ACB /* DMLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D3C3B3969C5C2B675631948AE49178 /* DMLCollectionViewCell.m */; };
-		F0DCDA6E9E2F3412E4E80C7EE6F0BAB4 /* DMLSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C18F4C71B4F0DA677CA196070EED9113 /* DMLSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE171ED6F581F13CADDCC458F8C3999C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */; };
+		CB19D38A2FF0765BF2397A8EB49DC2E7 /* DMLCollectionHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = E68A645DFBDA05694E440D1223B143DA /* DMLCollectionHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F30FB565452CF6C25D7D3866CDEA6D74 /* Pods-DMLWidget_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2F42EEC891CFF4EDB03635A54C4480 /* Pods-DMLWidget_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F34D68199A09091DFB48D95AEE7BBD46 /* DMLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C79EEDB28AB36CD9D3BB98916D9ED2 /* DMLSlider.m */; };
 		F7D2C6A2A3E5A849E1473AF35F70BEF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		FCD96ABE77631DDFDA1FC52087735463 /* DMLWidget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F3FDEE6B116EE47657B16EDFD91C3D /* DMLWidget-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,56 +35,55 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A705AC55A83668DDF6A81D9C6D974E76;
+			remoteGlobalIDString = 8532FE7246971E7489E46F92D377D9C7;
 			remoteInfo = DMLWidget;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0243E42AC35F6FF8638905446067E68C /* Pods-DMLWidget_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DMLWidget_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0574B69412EC107B51722BEA0CAD22D3 /* DMLWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DMLWidget.modulemap; sourceTree = "<group>"; };
+		04993C466AEAEC0257ED38DB0215A79F /* DMLWidget-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMLWidget-prefix.pch"; sourceTree = "<group>"; };
 		08545EEB3A5616C4692CC42434A3B322 /* Pods-DMLWidget_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DMLWidget_Example-frameworks.sh"; sourceTree = "<group>"; };
-		09FCB4B46E5340720F9E84821EAB078A /* DMLCollectionHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLCollectionHeaderView.m; path = Classes/DMLCollectionHeaderView.m; sourceTree = "<group>"; };
-		172E2EFF416861B763C3905ED4DA36CB /* DMLCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLCollectionViewCell.h; path = Classes/DMLCollectionViewCell.h; sourceTree = "<group>"; };
-		17859E8A8438B25B13E2D85E3EB45AAA /* DMLWidget-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMLWidget-prefix.pch"; sourceTree = "<group>"; };
-		21E68212E13D03EFB3C328862CFCD7C9 /* DMLWidget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLWidget.h; path = Classes/DMLWidget.h; sourceTree = "<group>"; };
+		246EF6604D3153D4E01136BCFBF27088 /* DMLCamPreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLCamPreviewView.m; path = Classes/DMLCamPreviewView.m; sourceTree = "<group>"; };
 		2AC42AF7E5FF33D438267B4BCD178DE2 /* Pods-DMLWidget_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DMLWidget_Example-dummy.m"; sourceTree = "<group>"; };
+		35995C2B9AC8678720917778908B3775 /* DMLSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLSlider.h; path = Classes/DMLSlider.h; sourceTree = "<group>"; };
 		3AD7C947AF705AAAFBD0620C4ADD4390 /* Pods-DMLWidget_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DMLWidget_Tests.modulemap"; sourceTree = "<group>"; };
 		406FFCDFE4C3E0A0FE0A4FE9AF2BF718 /* Pods-DMLWidget_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DMLWidget_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		42B302A7F4208B82C70DC6D75E79C321 /* Pods-DMLWidget_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DMLWidget_Tests-dummy.m"; sourceTree = "<group>"; };
-		4480C362AD76B8D35D7B4ECD58A87CF8 /* DMLWidget.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMLWidget.xcconfig; sourceTree = "<group>"; };
 		45A7580136CADB295C1582C6C62EFE96 /* Pods-DMLWidget_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DMLWidget_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4689BEEF5F4B5B5B5DDF75FBF65E1B78 /* DMLWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMLWidget-dummy.m"; sourceTree = "<group>"; };
-		537D4746E0C8F1550257DDB29139DB25 /* DMLCamPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLCamPreviewView.h; path = Classes/DMLCamPreviewView.h; sourceTree = "<group>"; };
-		57D3C3B3969C5C2B675631948AE49178 /* DMLCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLCollectionViewCell.m; path = Classes/DMLCollectionViewCell.m; sourceTree = "<group>"; };
-		58B2CEC0DABD4B4D667E01C648DC6FF1 /* DMLSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLSlider.h; path = Classes/DMLSlider.h; sourceTree = "<group>"; };
+		5276B628D3F2A4A37F9172A58ADFECD8 /* DMLCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLCollectionViewCell.h; path = Classes/DMLCollectionViewCell.h; sourceTree = "<group>"; };
+		53D0C770EC30A0364505B1A539D97AE9 /* DMLWidget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMLWidget-umbrella.h"; sourceTree = "<group>"; };
 		5E2F42EEC891CFF4EDB03635A54C4480 /* Pods-DMLWidget_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMLWidget_Tests-umbrella.h"; sourceTree = "<group>"; };
 		63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		640AC6BA08939837F37A458ADBCD02B7 /* Pods-DMLWidget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMLWidget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6775A0E9BB8F7186F640A4BEE89808CB /* DMLCollectionHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLCollectionHeaderView.h; path = Classes/DMLCollectionHeaderView.h; sourceTree = "<group>"; };
+		65FC1FAC11191197E2EDEA229400ED9D /* DMLSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLSegmentedControl.h; path = Classes/DMLSegmentedControl.h; sourceTree = "<group>"; };
 		7CD51D11CC4BD21A220847823F500961 /* Pods-DMLWidget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMLWidget_Example.release.xcconfig"; sourceTree = "<group>"; };
+		890B4811EFC29189E3A84F247B39DDEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CC1EAB2C35544D3670FBC0890AD5ACD /* Pods-DMLWidget_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMLWidget_Example-umbrella.h"; sourceTree = "<group>"; };
-		8EBDBA8D290FBBA48C6A2464C4F68EC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E776B57E31CF001CB5BEACC867424C3 /* DMLCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLCollectionViewCell.m; path = Classes/DMLCollectionViewCell.m; sourceTree = "<group>"; };
+		8F1FA7C9577D36EEB1054E6D47ED9342 /* DMLSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLSegmentedControl.m; path = Classes/DMLSegmentedControl.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96F3FDEE6B116EE47657B16EDFD91C3D /* DMLWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMLWidget-dummy.m"; sourceTree = "<group>"; };
 		98AAB6D5D2B76C5FF70E92BEF68F76C4 /* Pods-DMLWidget_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DMLWidget_Example.modulemap"; sourceTree = "<group>"; };
-		A910E1C33B1BE638BC81D56C1EA230FA /* DMLCamPreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLCamPreviewView.m; path = Classes/DMLCamPreviewView.m; sourceTree = "<group>"; };
 		B0EC9C2CE0061B14781E909225EF1C2B /* Pods-DMLWidget_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DMLWidget_Example-resources.sh"; sourceTree = "<group>"; };
 		B3993791AC9091989D2EB2E1AE43155D /* Pods-DMLWidget_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DMLWidget_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B52483EF6182BFFF12F0504893E86019 /* Pods_DMLWidget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DMLWidget_Example.framework; path = "Pods-DMLWidget_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73B1A4321FF16B2E227FD405C8D4AA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C05B090AA191014F3C6FB7D06DE4EDB4 /* Pods-DMLWidget_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMLWidget_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C10AFC20A5BACD1852FD520DD5FF302A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C18F4C71B4F0DA677CA196070EED9113 /* DMLSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLSegmentedControl.h; path = Classes/DMLSegmentedControl.h; sourceTree = "<group>"; };
-		CA7B2FC02AA34A230FE71981911ACB03 /* DMLWidget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMLWidget-umbrella.h"; sourceTree = "<group>"; };
 		CB108B20FFEB2086B529F4EB2CB4E47B /* Pods_DMLWidget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DMLWidget_Tests.framework; path = "Pods-DMLWidget_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D3625EDD751BB0A482A229EC27E8CA8B /* Pods-DMLWidget_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DMLWidget_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D6EBEA33C1ECF66D7E2A7856FD7FB2C7 /* Pods-DMLWidget_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DMLWidget_Tests-resources.sh"; sourceTree = "<group>"; };
-		DDCCB104C345D0AD02C23A8C799B45ED /* DMLSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLSlider.m; path = Classes/DMLSlider.m; sourceTree = "<group>"; };
+		DB06EAB920B96076D3CEB97DE0321DB5 /* DMLCollectionHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLCollectionHeaderView.m; path = Classes/DMLCollectionHeaderView.m; sourceTree = "<group>"; };
+		E68A645DFBDA05694E440D1223B143DA /* DMLCollectionHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLCollectionHeaderView.h; path = Classes/DMLCollectionHeaderView.h; sourceTree = "<group>"; };
+		E7C79EEDB28AB36CD9D3BB98916D9ED2 /* DMLSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLSlider.m; path = Classes/DMLSlider.m; sourceTree = "<group>"; };
 		F1D1D5A82A8970D73645158E0B6C9DC1 /* DMLWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DMLWidget.framework; path = DMLWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B9018CEAA5B2ECEEC23E1E752B556D /* DMLCamPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLCamPreviewView.h; path = Classes/DMLCamPreviewView.h; sourceTree = "<group>"; };
+		F8C070CDC4F83A4CD56D95C930D42876 /* DMLWidget.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMLWidget.xcconfig; sourceTree = "<group>"; };
+		F8FBCBD547C6149014D60B15632E6B2E /* DMLWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DMLWidget.modulemap; sourceTree = "<group>"; };
 		FB7ABF9BDA930E06D2463D587CFA6B9E /* Pods-DMLWidget_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMLWidget_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		FE6F0D93ABD8B4F14824AEFD5ED9F075 /* DMLSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLSegmentedControl.m; path = Classes/DMLSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +95,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		461B6181DA9544D9006B020EA9ECF8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE171ED6F581F13CADDCC458F8C3999C /* AVFoundation.framework in Frameworks */,
+				50361BB362F72C0348E26FA4790A6B49 /* Foundation.framework in Frameworks */,
+				A4301A90F61C37BD98EE72DAC6A6D51B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56131C8DF780E608671720D2FD9A7189 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,19 +113,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		811D6BDDA634D64B61E53DE7E55B7BC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFF0D62275696F391DB3EB3FCF0EFD55 /* AVFoundation.framework in Frameworks */,
-				79338FFD23AEC0757D248C8B00FC5534 /* Foundation.framework in Frameworks */,
-				66509D7858D3590E547762A3F84A23D3 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11DFDB9A23A9C31BE9E732720C11E555 /* DMLSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				65FC1FAC11191197E2EDEA229400ED9D /* DMLSegmentedControl.h */,
+				8F1FA7C9577D36EEB1054E6D47ED9342 /* DMLSegmentedControl.m */,
+			);
+			name = DMLSegmentedControl;
+			sourceTree = "<group>";
+		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,26 +143,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		518828549DC7318FCA5E5D180584D4DC /* Development Pods */ = {
+		639A08740219618A9ED13AEF1B5DD7D7 /* DMLWidget */ = {
 			isa = PBXGroup;
 			children = (
-				A506C348318D9605F7D4FCAD9A3162D1 /* DMLWidget */,
+				9CCB1CD6B3A0E1E7E0DC2E5786BC1286 /* DMLCamPreviewView */,
+				D0EDFD86E1FA23A7C29422FF272C01B4 /* DMLCollectionHeaderView */,
+				D5C4D4EE9651B4AB11831D5678FC95B8 /* DMLCollectionViewCell */,
+				11DFDB9A23A9C31BE9E732720C11E555 /* DMLSegmentedControl */,
+				F9679E51790F482A560BA278A605426B /* DMLSlider */,
+				7BB511AFAA2F8A0E34C9670E3C9331CA /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5331C7D3C5A9A19E76B6C4472F388F68 /* DMLSlider */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = DMLSlider;
-			sourceTree = "<group>";
-		};
-		53E5801ABF910D8182FFF795446881E6 /* DMLSegmentedControl */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = DMLSegmentedControl;
+			name = DMLWidget;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6A5622337E4A2A39844DD4FAC42D3FE6 /* Pods-DMLWidget_Tests */ = {
@@ -186,47 +185,64 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		7BB511AFAA2F8A0E34C9670E3C9331CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8FBCBD547C6149014D60B15632E6B2E /* DMLWidget.modulemap */,
+				F8C070CDC4F83A4CD56D95C930D42876 /* DMLWidget.xcconfig */,
+				96F3FDEE6B116EE47657B16EDFD91C3D /* DMLWidget-dummy.m */,
+				04993C466AEAEC0257ED38DB0215A79F /* DMLWidget-prefix.pch */,
+				53D0C770EC30A0364505B1A539D97AE9 /* DMLWidget-umbrella.h */,
+				890B4811EFC29189E3A84F247B39DDEB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DMLWidget";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				518828549DC7318FCA5E5D180584D4DC /* Development Pods */,
+				B6AA9119CC3FCCA14E9FBCC2D3030473 /* Development Pods */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				3F50A85D3FC40E6148057D10135E55C3 /* Products */,
 				DC301ED922146D006E49442D3B014F91 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		872BD1BAEC4561B00AE85F482E86583D /* DMLCamPreviewView */ = {
+		9CCB1CD6B3A0E1E7E0DC2E5786BC1286 /* DMLCamPreviewView */ = {
 			isa = PBXGroup;
 			children = (
+				F8B9018CEAA5B2ECEEC23E1E752B556D /* DMLCamPreviewView.h */,
+				246EF6604D3153D4E01136BCFBF27088 /* DMLCamPreviewView.m */,
 			);
 			name = DMLCamPreviewView;
 			sourceTree = "<group>";
 		};
-		A506C348318D9605F7D4FCAD9A3162D1 /* DMLWidget */ = {
+		B6AA9119CC3FCCA14E9FBCC2D3030473 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				537D4746E0C8F1550257DDB29139DB25 /* DMLCamPreviewView.h */,
-				A910E1C33B1BE638BC81D56C1EA230FA /* DMLCamPreviewView.m */,
-				6775A0E9BB8F7186F640A4BEE89808CB /* DMLCollectionHeaderView.h */,
-				09FCB4B46E5340720F9E84821EAB078A /* DMLCollectionHeaderView.m */,
-				172E2EFF416861B763C3905ED4DA36CB /* DMLCollectionViewCell.h */,
-				57D3C3B3969C5C2B675631948AE49178 /* DMLCollectionViewCell.m */,
-				C18F4C71B4F0DA677CA196070EED9113 /* DMLSegmentedControl.h */,
-				FE6F0D93ABD8B4F14824AEFD5ED9F075 /* DMLSegmentedControl.m */,
-				58B2CEC0DABD4B4D667E01C648DC6FF1 /* DMLSlider.h */,
-				DDCCB104C345D0AD02C23A8C799B45ED /* DMLSlider.m */,
-				21E68212E13D03EFB3C328862CFCD7C9 /* DMLWidget.h */,
-				872BD1BAEC4561B00AE85F482E86583D /* DMLCamPreviewView */,
-				E39BB1F4323AAB06A525876346500EE6 /* DMLCollectionHeaderView */,
-				E84526431F93E860E9C17B123E185ADC /* DMLCollectionViewCell */,
-				53E5801ABF910D8182FFF795446881E6 /* DMLSegmentedControl */,
-				5331C7D3C5A9A19E76B6C4472F388F68 /* DMLSlider */,
-				EE2C5C481D1FE05258170ED18EC8F483 /* Support Files */,
+				639A08740219618A9ED13AEF1B5DD7D7 /* DMLWidget */,
 			);
-			name = DMLWidget;
-			path = ../..;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D0EDFD86E1FA23A7C29422FF272C01B4 /* DMLCollectionHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				E68A645DFBDA05694E440D1223B143DA /* DMLCollectionHeaderView.h */,
+				DB06EAB920B96076D3CEB97DE0321DB5 /* DMLCollectionHeaderView.m */,
+			);
+			name = DMLCollectionHeaderView;
+			sourceTree = "<group>";
+		};
+		D5C4D4EE9651B4AB11831D5678FC95B8 /* DMLCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5276B628D3F2A4A37F9172A58ADFECD8 /* DMLCollectionViewCell.h */,
+				8E776B57E31CF001CB5BEACC867424C3 /* DMLCollectionViewCell.m */,
+			);
+			name = DMLCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		DC301ED922146D006E49442D3B014F91 /* Targets Support Files */ = {
@@ -236,34 +252,6 @@
 				6A5622337E4A2A39844DD4FAC42D3FE6 /* Pods-DMLWidget_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E39BB1F4323AAB06A525876346500EE6 /* DMLCollectionHeaderView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = DMLCollectionHeaderView;
-			sourceTree = "<group>";
-		};
-		E84526431F93E860E9C17B123E185ADC /* DMLCollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = DMLCollectionViewCell;
-			sourceTree = "<group>";
-		};
-		EE2C5C481D1FE05258170ED18EC8F483 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0574B69412EC107B51722BEA0CAD22D3 /* DMLWidget.modulemap */,
-				4480C362AD76B8D35D7B4ECD58A87CF8 /* DMLWidget.xcconfig */,
-				4689BEEF5F4B5B5B5DDF75FBF65E1B78 /* DMLWidget-dummy.m */,
-				17859E8A8438B25B13E2D85E3EB45AAA /* DMLWidget-prefix.pch */,
-				CA7B2FC02AA34A230FE71981911ACB03 /* DMLWidget-umbrella.h */,
-				8EBDBA8D290FBBA48C6A2464C4F68EC1 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DMLWidget";
 			sourceTree = "<group>";
 		};
 		EEF9D516F4C8E411CD37814449B71B4B /* Pods-DMLWidget_Example */ = {
@@ -284,28 +272,36 @@
 			path = "Target Support Files/Pods-DMLWidget_Example";
 			sourceTree = "<group>";
 		};
+		F9679E51790F482A560BA278A605426B /* DMLSlider */ = {
+			isa = PBXGroup;
+			children = (
+				35995C2B9AC8678720917778908B3775 /* DMLSlider.h */,
+				E7C79EEDB28AB36CD9D3BB98916D9ED2 /* DMLSlider.m */,
+			);
+			name = DMLSlider;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		07A0F9932C89D2EE45762A4F94604FC4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				562D00FDFA334977E2A9EDA706F8D540 /* DMLCamPreviewView.h in Headers */,
-				EACE2DD90D23BD2B862541BA85D04686 /* DMLCollectionHeaderView.h in Headers */,
-				1A82862759F30CD13E58B7A9206D2871 /* DMLCollectionViewCell.h in Headers */,
-				F0DCDA6E9E2F3412E4E80C7EE6F0BAB4 /* DMLSegmentedControl.h in Headers */,
-				526EEC87AA3C7A16953B96F13BAE9E05 /* DMLSlider.h in Headers */,
-				A4AEE71252BCCAD5E947689FD789B1C5 /* DMLWidget-umbrella.h in Headers */,
-				84B54FFEC97EEBE9465388E3E820E27B /* DMLWidget.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5D4D5C342DA7090EB1C1F77CB94BD620 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				74380A5CE7DC1FA6034758D77D70D74E /* Pods-DMLWidget_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC07C9FE5C4BFCFB06268D3413F91EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE620B183B180E1B559764C75497ED2 /* DMLCamPreviewView.h in Headers */,
+				CB19D38A2FF0765BF2397A8EB49DC2E7 /* DMLCollectionHeaderView.h in Headers */,
+				662E107F66D9ED0EA643B7B2E0A11E0D /* DMLCollectionViewCell.h in Headers */,
+				443BEDFC9882B97D23C6CB7CC5A43786 /* DMLSegmentedControl.h in Headers */,
+				0177FE170950A49204E3FDCBDA7059B1 /* DMLSlider.h in Headers */,
+				1635B1ED5951F321DB558E12E870A214 /* DMLWidget-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,13 +351,13 @@
 			productReference = B52483EF6182BFFF12F0504893E86019 /* Pods_DMLWidget_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A705AC55A83668DDF6A81D9C6D974E76 /* DMLWidget */ = {
+		8532FE7246971E7489E46F92D377D9C7 /* DMLWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1501DF8C9A662EAC47DF613BE9BEA5CB /* Build configuration list for PBXNativeTarget "DMLWidget" */;
+			buildConfigurationList = 728D9D9756417C0FB19D04DE97BC8570 /* Build configuration list for PBXNativeTarget "DMLWidget" */;
 			buildPhases = (
-				31697C1CF378DDFA6521188FC80B7B22 /* Sources */,
-				811D6BDDA634D64B61E53DE7E55B7BC8 /* Frameworks */,
-				07A0F9932C89D2EE45762A4F94604FC4 /* Headers */,
+				BBB2249993D35D3D348DAD8304DB9266 /* Sources */,
+				461B6181DA9544D9006B020EA9ECF8CE /* Frameworks */,
+				7EC07C9FE5C4BFCFB06268D3413F91EA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -393,7 +389,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A705AC55A83668DDF6A81D9C6D974E76 /* DMLWidget */,
+				8532FE7246971E7489E46F92D377D9C7 /* DMLWidget */,
 				5CE78E2148AF4994FFA56CF9A8B9F144 /* Pods-DMLWidget_Example */,
 				49DD439103C1BD05F3940D745EE0AEFE /* Pods-DMLWidget_Tests */,
 			);
@@ -401,19 +397,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		31697C1CF378DDFA6521188FC80B7B22 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C28EF05BED3978D30D9C4E35B5D74A2 /* DMLCamPreviewView.m in Sources */,
-				76BC70CA9020827499B541D1F1719ECB /* DMLCollectionHeaderView.m in Sources */,
-				ED1911238BD1D66C16E96C8EFBC93ACB /* DMLCollectionViewCell.m in Sources */,
-				5DFD641285A79A905AEF381334F1FABC /* DMLSegmentedControl.m in Sources */,
-				7D2C19EB89D85F5289A4FAE0BFC9887C /* DMLSlider.m in Sources */,
-				C68D976FE4D0DEE7A950839ECF23B47F /* DMLWidget-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		803A10CA8BF3C8EEA62ACDFAF6F3AD05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -430,13 +413,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBB2249993D35D3D348DAD8304DB9266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49990535A91CAFBF958E0FADC9B21AE7 /* DMLCamPreviewView.m in Sources */,
+				3AAAC99819F604C55B34382555803D74 /* DMLCollectionHeaderView.m in Sources */,
+				06BB559B6F5A120A889A0828EE52D845 /* DMLCollectionViewCell.m in Sources */,
+				77B773AD0541EC1C815533E5FD1B5C44 /* DMLSegmentedControl.m in Sources */,
+				F34D68199A09091DFB48D95AEE7BBD46 /* DMLSlider.m in Sources */,
+				FCD96ABE77631DDFDA1FC52087735463 /* DMLWidget-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		E9F05F1D2225C153004FE3736FA0FF2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DMLWidget;
-			target = A705AC55A83668DDF6A81D9C6D974E76 /* DMLWidget */;
+			target = 8532FE7246971E7489E46F92D377D9C7 /* DMLWidget */;
 			targetProxy = 7ACF7AFAB4801782595F0C6AA32D117F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -501,6 +497,65 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		35B30E98D8E0E39F66BA4999A2BFD6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C070CDC4F83A4CD56D95C930D42876 /* DMLWidget.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DMLWidget/DMLWidget-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DMLWidget/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DMLWidget/DMLWidget.modulemap";
+				PRODUCT_NAME = DMLWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		587F8260A43A3380356F9D6DA94D15E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C070CDC4F83A4CD56D95C930D42876 /* DMLWidget.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DMLWidget/DMLWidget-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DMLWidget/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DMLWidget/DMLWidget.modulemap";
+				PRODUCT_NAME = DMLWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		6DF8A34D226B9FD6B6DEEE0FD4899CED /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -622,36 +677,6 @@
 			};
 			name = Release;
 		};
-		9BABF44528F9569EB716B1AAFD7BF11E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4480C362AD76B8D35D7B4ECD58A87CF8 /* DMLWidget.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DMLWidget/DMLWidget-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DMLWidget/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DMLWidget/DMLWidget.modulemap";
-				PRODUCT_NAME = DMLWidget;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9F1BFAE119AD79F66BED9E136FDC0DE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C05B090AA191014F3C6FB7D06DE4EDB4 /* Pods-DMLWidget_Example.debug.xcconfig */;
@@ -678,35 +703,6 @@
 				PRODUCT_NAME = Pods_DMLWidget_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CBCBCE5C6EFFDE1CB2A3752FD0552C52 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4480C362AD76B8D35D7B4ECD58A87CF8 /* DMLWidget.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DMLWidget/DMLWidget-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DMLWidget/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DMLWidget/DMLWidget.modulemap";
-				PRODUCT_NAME = DMLWidget;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -749,20 +745,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1501DF8C9A662EAC47DF613BE9BEA5CB /* Build configuration list for PBXNativeTarget "DMLWidget" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CBCBCE5C6EFFDE1CB2A3752FD0552C52 /* Debug */,
-				9BABF44528F9569EB716B1AAFD7BF11E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CDAB5613991E411E5990BAF694995C5 /* Debug */,
 				7B62A85C412D689EF418FA67DA770A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		728D9D9756417C0FB19D04DE97BC8570 /* Build configuration list for PBXNativeTarget "DMLWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B30E98D8E0E39F66BA4999A2BFD6A0 /* Debug */,
+				587F8260A43A3380356F9D6DA94D15E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
