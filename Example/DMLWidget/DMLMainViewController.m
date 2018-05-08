@@ -8,6 +8,7 @@
 
 #import "DMLMainViewController.h"
 #import "DMLSegmentedControlViewController.h"
+#import "DMLImageHeaderRefreshControlViewController.h"
 
 static NSString *const sCellId = @"Cell";
 
@@ -16,7 +17,8 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
     DMLWidgetElementCollectionHeaderView,
     DMLWidgetElementCollectionCell,
     DMLWidgetElementSegmentedControl,
-    DMLWidgetElementSlider
+    DMLWidgetElementSlider,
+    DMLWidgetElementImageHeaderRefreshControl
 };
 
 
@@ -48,7 +50,7 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return DMLWidgetElementSlider + 1;
+    return self.elementNames.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -109,7 +111,8 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
             @(DMLWidgetElementCollectionHeaderView) : @"CollectionHeaderView",
             @(DMLWidgetElementCollectionCell) : @"CollectionCell",
             @(DMLWidgetElementSegmentedControl) : @"SegmentedControl",
-            @(DMLWidgetElementSlider) : @"Slider"
+            @(DMLWidgetElementSlider) : @"Slider",
+            @(DMLWidgetElementImageHeaderRefreshControl) : @"ImageHeaderRefreshControl"
         };
     }
     return _elementNames;
@@ -119,7 +122,8 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
 {
     if (!_elementMappingExamples) {
         _elementMappingExamples = @{
-            @(DMLWidgetElementSegmentedControl) : [DMLSegmentedControlViewController class]
+            @(DMLWidgetElementSegmentedControl) : [DMLSegmentedControlViewController class],
+            @(DMLWidgetElementImageHeaderRefreshControl) : [DMLImageHeaderRefreshControlViewController class]
         };
     }
     return _elementMappingExamples;

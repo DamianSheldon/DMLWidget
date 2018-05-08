@@ -13,6 +13,7 @@
 #import "DMLCamPreviewView.h"
 #import "DMLCollectionHeaderView.h"
 #import "DMLCollectionViewCell.h"
+#import "DMLImageHeaderRefreshControl.h"
 #import "DMLSegmentedControl.h"
 #import "DMLSlider.h"
 

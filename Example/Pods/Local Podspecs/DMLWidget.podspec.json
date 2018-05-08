@@ -46,6 +46,15 @@
       "name": "DMLCollectionHeaderView",
       "source_files": "Classes/**/DMLCollectionHeaderView.{h,m}",
       "frameworks": "UIKit"
+    },
+    {
+      "name": "DMLImageHeaderRefreshControl",
+      "source_files": "Classes/**/DMLImageHeaderRefreshControl.{h,m}",
+      "dependencies": {
+        "MJRefresh": [
+          "~> 3.1.15.3"
+        ]
+      }
     }
   ]
 }

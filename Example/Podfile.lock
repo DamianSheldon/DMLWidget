@@ -3,13 +3,17 @@ PODS:
     - DMLWidget/DMLCamPreviewView (= 0.5.0)
     - DMLWidget/DMLCollectionHeaderView (= 0.5.0)
     - DMLWidget/DMLCollectionViewCell (= 0.5.0)
+    - DMLWidget/DMLImageHeaderRefreshControl (= 0.5.0)
     - DMLWidget/DMLSegmentedControl (= 0.5.0)
     - DMLWidget/DMLSlider (= 0.5.0)
   - DMLWidget/DMLCamPreviewView (0.5.0)
   - DMLWidget/DMLCollectionHeaderView (0.5.0)
   - DMLWidget/DMLCollectionViewCell (0.5.0)
+  - DMLWidget/DMLImageHeaderRefreshControl (0.5.0):
+    - MJRefresh (~> 3.1.15.3)
   - DMLWidget/DMLSegmentedControl (0.5.0)
   - DMLWidget/DMLSlider (0.5.0)
+  - MJRefresh (3.1.15.3)
 
 DEPENDENCIES:
   - DMLWidget (from `../`)
@@ -19,7 +23,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DMLWidget: 6b4abcf7e67c430fdc26dab94335181b555a611d
+  DMLWidget: 3a2d0e52e832524940df22d5bd869ae0819bb684
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
 
 PODFILE CHECKSUM: bba0cac068710eb2f63755b148f8b7ba40a5c845
 
