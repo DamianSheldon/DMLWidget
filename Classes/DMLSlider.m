@@ -200,7 +200,7 @@ static CGFloat const sIntrinsicContentSizeHeight = 50.0f;
         [pointPath fill];
 
         // Last point
-        void (^drawLastCircle)() = ^() {
+        void (^drawLastCircle)(void) = ^() {
             r.origin.x = CGRectGetMaxX(insetRect) - CGRectGetWidth(r);
             pointPath = [UIBezierPath bezierPathWithOvalInRect:r];
 
