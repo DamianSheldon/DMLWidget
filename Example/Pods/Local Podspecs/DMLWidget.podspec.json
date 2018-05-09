@@ -57,8 +57,8 @@
       }
     },
     {
-      "name": "DMLRaindropRefreshControl",
-      "source_files": "Classes/**/DMLRaindropRefreshControl.{h,m}",
+      "name": "DMLRaindropHeaderRefreshControl",
+      "source_files": "Classes/**/DMLRaindropHeaderRefreshControl.{h,m}",
       "dependencies": {
         "MJRefresh": [
           "~> 3.1.15.3"
