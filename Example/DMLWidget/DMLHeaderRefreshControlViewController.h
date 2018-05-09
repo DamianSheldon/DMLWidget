@@ -10,7 +10,7 @@
 #import <MJRefresh/MJRefreshHeader.h>
 
 
-@interface DMLImageHeaderRefreshControlViewController : UITableViewController
+@interface DMLHeaderRefreshControlViewController : UITableViewController
 
 @property (nonatomic) MJRefreshHeader *refreshHeader;
 

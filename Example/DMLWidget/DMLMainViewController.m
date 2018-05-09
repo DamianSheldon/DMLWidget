@@ -10,7 +10,7 @@
 
 #import "DMLMainViewController.h"
 #import "DMLSegmentedControlViewController.h"
-#import "DMLImageHeaderRefreshControlViewController.h"
+#import "DMLHeaderRefreshControlViewController.h"
 
 static NSString *const sCellId = @"Cell";
 
@@ -81,12 +81,14 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
         }
 
         case DMLWidgetElementImageHeaderRefreshControl: {
-            DMLImageHeaderRefreshControlViewController *viewController = [DMLImageHeaderRefreshControlViewController new];
+            DMLHeaderRefreshControlViewController *viewController = [DMLHeaderRefreshControlViewController new];
 
             DMLImageHeaderRefreshControl *imageHeaderRefreshControl = [DMLImageHeaderRefreshControl headerWithRefreshingTarget:viewController refreshingAction:@selector(loadNewData)];
             imageHeaderRefreshControl.imageView.backgroundColor = [UIColor purpleColor];
 
             viewController.refreshHeader = imageHeaderRefreshControl;
+
+            vc = viewController;
 
             break;
         }
@@ -151,7 +153,7 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
     if (!_elementMappingExamples) {
         _elementMappingExamples = @{
             @(DMLWidgetElementSegmentedControl) : [DMLSegmentedControlViewController class],
-            @(DMLWidgetElementImageHeaderRefreshControl) : [DMLImageHeaderRefreshControlViewController class]
+            @(DMLWidgetElementImageHeaderRefreshControl) : [DMLHeaderRefreshControlViewController class]
         };
     }
     return _elementMappingExamples;

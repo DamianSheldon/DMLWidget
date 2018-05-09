@@ -6,17 +6,17 @@
 //  Copyright © 2018 DamianSheldon. All rights reserved.
 //
 
-#import "DMLImageHeaderRefreshControlViewController.h"
+#import "DMLHeaderRefreshControlViewController.h"
 
 
-@interface DMLImageHeaderRefreshControlViewController ()
+@interface DMLHeaderRefreshControlViewController ()
 
 @property (nonatomic) NSMutableArray *data;
 
 @end
 
 
-@implementation DMLImageHeaderRefreshControlViewController
+@implementation DMLHeaderRefreshControlViewController
 
 - (void)viewDidLoad
 {
