@@ -1,6 +1,6 @@
 {
   "name": "DMLWidget",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "summary": "A collection of custom UI elements.",
   "description": "DMLWidget is a repository collecte custom UI elements that common in development. Each element as a subspec, so it can be installed independent.",
   "homepage": "https://github.com/DamianSheldon/DMLWidget",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/DamianSheldon/DMLWidget.git",
-    "tag": "0.5.0"
+    "tag": "0.6.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -50,6 +50,15 @@
     {
       "name": "DMLImageHeaderRefreshControl",
       "source_files": "Classes/**/DMLImageHeaderRefreshControl.{h,m}",
+      "dependencies": {
+        "MJRefresh": [
+          "~> 3.1.15.3"
+        ]
+      }
+    },
+    {
+      "name": "DMLRaindropRefreshControl",
+      "source_files": "Classes/**/DMLRaindropRefreshControl.{h,m}",
       "dependencies": {
         "MJRefresh": [
           "~> 3.1.15.3"

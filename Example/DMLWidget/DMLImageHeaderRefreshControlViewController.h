@@ -11,4 +11,6 @@
 
 @interface DMLImageHeaderRefreshControlViewController : UITableViewController
 
+- (void)loadNewData;
+
 @end

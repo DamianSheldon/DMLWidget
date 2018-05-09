@@ -101,6 +101,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5886A0D120A1A5A900E2690B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5A5195388D20070C39A /* DMLSegmentedControlViewController.h */,
+				6003F5A6195388D20070C39A /* DMLSegmentedControlViewController.m */,
+				58DB1F511F974B0900AF2A84 /* DMLMainViewController.h */,
+				58DB1F521F974B0900AF2A84 /* DMLMainViewController.m */,
+				5886A0CA20A154A400E2690B /* DMLImageHeaderRefreshControlViewController.h */,
+				5886A0CB20A154A400E2690B /* DMLImageHeaderRefreshControlViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		5886A0D220A1A5B600E2690B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6003F59C195388D20070C39A /* DMLAppDelegate.h */,
+				6003F59D195388D20070C39A /* DMLAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -138,16 +160,10 @@
 		6003F593195388D20070C39A /* Example for DMLWidget */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* DMLAppDelegate.h */,
-				6003F59D195388D20070C39A /* DMLAppDelegate.m */,
+				5886A0D220A1A5B600E2690B /* AppDelegate */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* DMLSegmentedControlViewController.h */,
-				6003F5A6195388D20070C39A /* DMLSegmentedControlViewController.m */,
-				58DB1F511F974B0900AF2A84 /* DMLMainViewController.h */,
-				58DB1F521F974B0900AF2A84 /* DMLMainViewController.m */,
+				5886A0D120A1A5A900E2690B /* ViewController */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				5886A0CA20A154A400E2690B /* DMLImageHeaderRefreshControlViewController.h */,
-				5886A0CB20A154A400E2690B /* DMLImageHeaderRefreshControlViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
