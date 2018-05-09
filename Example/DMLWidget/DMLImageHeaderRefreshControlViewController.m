@@ -6,8 +6,6 @@
 //  Copyright © 2018 DamianSheldon. All rights reserved.
 //
 
-#import <DMLWidget/DMLImageHeaderRefreshControl.h>
-
 #import "DMLImageHeaderRefreshControlViewController.h"
 
 
@@ -26,9 +24,11 @@
 
     self.tableView.rowHeight = 44.0;
 
-    DMLImageHeaderRefreshControl *imageHeaderRefreshControl = [DMLImageHeaderRefreshControl headerWithRefreshingTarget:self refreshingAction:@selector(loadNewData)];
-    imageHeaderRefreshControl.imageView.backgroundColor = [UIColor purpleColor];
-    self.tableView.mj_header = imageHeaderRefreshControl;
+    //    DMLImageHeaderRefreshControl *imageHeaderRefreshControl = [DMLImageHeaderRefreshControl headerWithRefreshingTarget:self refreshingAction:@selector(loadNewData)];
+    //    imageHeaderRefreshControl.imageView.backgroundColor = [UIColor purpleColor];
+    //    self.tableView.mj_header = imageHeaderRefreshControl;
+
+    self.tableView.mj_header = self.refreshHeader;
 }
 
 #pragma mark - UITableViewDataSource
@@ -60,6 +60,8 @@
 {
     return [NSString stringWithFormat:@"random string---%d", arc4random_uniform(1000000)];
 }
+
+#pragma mark - Public
 
 - (void)loadNewData
 {

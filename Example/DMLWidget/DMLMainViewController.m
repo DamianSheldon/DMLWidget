@@ -6,6 +6,8 @@
 //  Copyright © 2017 DamianSheldon. All rights reserved.
 //
 
+#import <DMLWidget/DMLImageHeaderRefreshControl.h>
+
 #import "DMLMainViewController.h"
 #import "DMLSegmentedControlViewController.h"
 #import "DMLImageHeaderRefreshControlViewController.h"
@@ -18,7 +20,8 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
     DMLWidgetElementCollectionCell,
     DMLWidgetElementSegmentedControl,
     DMLWidgetElementSlider,
-    DMLWidgetElementImageHeaderRefreshControl
+    DMLWidgetElementImageHeaderRefreshControl,
+    DMLWidgetElementRaindropHeaderRefreshControl
 };
 
 
@@ -69,9 +72,34 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 
-    Class clz = self.elementMappingExamples[@(indexPath.row)];
-    if (clz) {
-        UIViewController *vc = [clz new];
+    UIViewController *vc;
+
+    switch (indexPath.row) {
+        case DMLWidgetElementSegmentedControl: {
+            vc = [DMLSegmentedControlViewController new];
+            break;
+        }
+
+        case DMLWidgetElementImageHeaderRefreshControl: {
+            DMLImageHeaderRefreshControlViewController *viewController = [DMLImageHeaderRefreshControlViewController new];
+
+            DMLImageHeaderRefreshControl *imageHeaderRefreshControl = [DMLImageHeaderRefreshControl headerWithRefreshingTarget:viewController refreshingAction:@selector(loadNewData)];
+            imageHeaderRefreshControl.imageView.backgroundColor = [UIColor purpleColor];
+
+            viewController.refreshHeader = imageHeaderRefreshControl;
+
+            break;
+        }
+
+        case DMLWidgetElementRaindropHeaderRefreshControl: {
+            break;
+        }
+
+        default:
+            break;
+    }
+
+    if (vc) {
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

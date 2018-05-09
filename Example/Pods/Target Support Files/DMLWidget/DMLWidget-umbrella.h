@@ -14,7 +14,7 @@
 #import "DMLCollectionHeaderView.h"
 #import "DMLCollectionViewCell.h"
 #import "DMLImageHeaderRefreshControl.h"
-#import "DMLRaindropRefreshControl.h"
+#import "DMLRaindropHeaderRefreshControl.h"
 #import "DMLSegmentedControl.h"
 #import "DMLSlider.h"
 

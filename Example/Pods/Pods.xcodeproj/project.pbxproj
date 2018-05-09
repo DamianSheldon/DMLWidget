@@ -16,7 +16,7 @@
 		1F3B36B543C49BC2AC06374CEBA1BA0B /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C462EB7C5A1BFAAAA88A2A69302D6D0D /* MJRefreshAutoGifFooter.m */; };
 		21AF4014516092A72EBB17F1191947E0 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = AD80BC1238C1F025946C78EA689F9FD6 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21CDF6EAB9DD2D96D9179CAD47B872C6 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AAF1C3C81270C477811E90BCD5614 /* NSBundle+MJRefresh.m */; };
-		24696F56AB2B8C9C92497D3A06D6E4F4 /* DMLRaindropRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAF41E9A404D5B73703BE20577BF2EF /* DMLRaindropRefreshControl.m */; };
+		24696F56AB2B8C9C92497D3A06D6E4F4 /* DMLRaindropHeaderRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAF41E9A404D5B73703BE20577BF2EF /* DMLRaindropHeaderRefreshControl.m */; };
 		258EF5D4CA9D5AC29A846129ABEC30FF /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7F9AE22051BDBE67493DD290EC5FD9 /* MJRefreshNormalHeader.m */; };
 		25A21D3CEF48D0F98C883CDBC35E702E /* DMLCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BA2C86242C6699C39F8575189399BD /* DMLCollectionHeaderView.m */; };
 		2E8D774DFDA46181EF60073D0C4789F8 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CA0A599AA99D8D4849BE6F09120B4 /* MJRefreshAutoFooter.m */; };
@@ -36,7 +36,7 @@
 		5B5F0E20D315AFBC4C3022C48DCEB80A /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE37D6C27365FC5DB7076DB6A5080B /* MJRefreshComponent.m */; };
 		5C140275BCCC13D1098BA11E05960518 /* DMLImageHeaderRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E444B11AF5A6A6F416AD85443B52DA /* DMLImageHeaderRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6344021676C2F73A7B39ADA818FB83F6 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8FF7AF8A14C7B50C338359C13B34F2 /* MJRefreshAutoNormalFooter.m */; };
-		65C9ED88E6ECB41F209B739DB1BA22E8 /* DMLRaindropRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 802C0F389DD825A5AD42C08DA47BCF79 /* DMLRaindropRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65C9ED88E6ECB41F209B739DB1BA22E8 /* DMLRaindropHeaderRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 802C0F389DD825A5AD42C08DA47BCF79 /* DMLRaindropHeaderRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6744E98C5C54FD081CE401ACE36A79D8 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E7FFE3499454CF2099186410BBF06F /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68CBCC7B506541D8AA2F98920F03CE33 /* DMLCollectionHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD76FEE6E1AF61A1DAEE18D266C6423 /* DMLCollectionHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CD81712E2FA83D036D323801016C7EA /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA630157576572B41710891D8A57CB3 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -127,39 +127,39 @@
 		357B1DD14D996D6BEA396A1E2B17C6BC /* DMLImageHeaderRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLImageHeaderRefreshControl.m; path = Classes/DMLImageHeaderRefreshControl.m; sourceTree = "<group>"; };
 		359A4DE4AFFF1344A5481B9EE94ABAC4 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		399AAF1C3C81270C477811E90BCD5614 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
-		3AD7C947AF705AAAFBD0620C4ADD4390 /* Pods-DMLWidget_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DMLWidget_Tests.modulemap"; sourceTree = "<group>"; };
+		3AD7C947AF705AAAFBD0620C4ADD4390 /* Pods-DMLWidget_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DMLWidget_Tests.modulemap"; sourceTree = "<group>"; };
 		3B5634B56935A942999DD7095774E463 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B891C94EACCA7BBB1D47F7062F8C5BD /* DMLWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DMLWidget.framework; path = DMLWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B891C94EACCA7BBB1D47F7062F8C5BD /* DMLWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMLWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6CA0A599AA99D8D4849BE6F09120B4 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		3F34941C00D133F21636840F5CBDFA9E /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
 		406FFCDFE4C3E0A0FE0A4FE9AF2BF718 /* Pods-DMLWidget_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DMLWidget_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		42B302A7F4208B82C70DC6D75E79C321 /* Pods-DMLWidget_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DMLWidget_Tests-dummy.m"; sourceTree = "<group>"; };
 		45A7580136CADB295C1582C6C62EFE96 /* Pods-DMLWidget_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DMLWidget_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		49174916E90C21069A65598DEF7EF81B /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MJRefresh.modulemap; sourceTree = "<group>"; };
+		49174916E90C21069A65598DEF7EF81B /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MJRefresh.modulemap; sourceTree = "<group>"; };
 		4DA630157576572B41710891D8A57CB3 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
-		4E6ED3857CB1B32B01BC88016462C9F8 /* Pods_DMLWidget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DMLWidget_Example.framework; path = "Pods-DMLWidget_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6ED3857CB1B32B01BC88016462C9F8 /* Pods_DMLWidget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMLWidget_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2F42EEC891CFF4EDB03635A54C4480 /* Pods-DMLWidget_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMLWidget_Tests-umbrella.h"; sourceTree = "<group>"; };
 		618B55A8DC609A5350D84788FB6F9208 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		640AC6BA08939837F37A458ADBCD02B7 /* Pods-DMLWidget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMLWidget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		66E444B11AF5A6A6F416AD85443B52DA /* DMLImageHeaderRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLImageHeaderRefreshControl.h; path = Classes/DMLImageHeaderRefreshControl.h; sourceTree = "<group>"; };
 		68EC56C0967BA157F07C38C86922B80E /* DMLCamPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLCamPreviewView.h; path = Classes/DMLCamPreviewView.h; sourceTree = "<group>"; };
-		6AC8EBC9257DEC8F6BE3B762803C33DC /* Pods_DMLWidget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DMLWidget_Tests.framework; path = "Pods-DMLWidget_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC8EBC9257DEC8F6BE3B762803C33DC /* Pods_DMLWidget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMLWidget_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D88BEDD1B5B89A24603DEEDA27376E2 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
 		7130DB3887386BA03357428BC8EA062F /* DMLSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLSlider.h; path = Classes/DMLSlider.h; sourceTree = "<group>"; };
 		7346853BD1F1823A9FE582E9DAA8E613 /* DMLSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLSegmentedControl.m; path = Classes/DMLSegmentedControl.m; sourceTree = "<group>"; };
 		772828D7C1B5EC016F2A391EE2153D58 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
 		7CD51D11CC4BD21A220847823F500961 /* Pods-DMLWidget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMLWidget_Example.release.xcconfig"; sourceTree = "<group>"; };
-		802C0F389DD825A5AD42C08DA47BCF79 /* DMLRaindropRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLRaindropRefreshControl.h; path = Classes/DMLRaindropRefreshControl.h; sourceTree = "<group>"; };
+		802C0F389DD825A5AD42C08DA47BCF79 /* DMLRaindropHeaderRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLRaindropHeaderRefreshControl.h; path = Classes/DMLRaindropHeaderRefreshControl.h; sourceTree = "<group>"; };
 		85DBD653F2D083BF866FD821BDED8FE0 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
 		89E7FFE3499454CF2099186410BBF06F /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		8CC1EAB2C35544D3670FBC0890AD5ACD /* Pods-DMLWidget_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMLWidget_Example-umbrella.h"; sourceTree = "<group>"; };
-		8E7EF8EB5C43A0539FFC3CE1BB8D95FE /* DMLWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DMLWidget.modulemap; sourceTree = "<group>"; };
+		8E7EF8EB5C43A0539FFC3CE1BB8D95FE /* DMLWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DMLWidget.modulemap; sourceTree = "<group>"; };
 		8EF1CC5B1CE4B106461CE38F0B1BAAC9 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
 		91E087BFF5A4C96024394F46FAB373F0 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95959F04C94DDA65B9FFB6C650CFFA32 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
-		95EF5EC2535E000D2CF8A202B9A97403 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98AAB6D5D2B76C5FF70E92BEF68F76C4 /* Pods-DMLWidget_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DMLWidget_Example.modulemap"; sourceTree = "<group>"; };
+		95EF5EC2535E000D2CF8A202B9A97403 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98AAB6D5D2B76C5FF70E92BEF68F76C4 /* Pods-DMLWidget_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DMLWidget_Example.modulemap"; sourceTree = "<group>"; };
 		9BF3ED4117E8669D0A80A95FA78F1B70 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
 		9C7F9AE22051BDBE67493DD290EC5FD9 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
 		9CD495E243B865555CCA84971329BB72 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 		C10AFC20A5BACD1852FD520DD5FF302A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C462EB7C5A1BFAAAA88A2A69302D6D0D /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
 		C9FCFA9C7618D0EF63681404B1649D15 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
-		CAAF41E9A404D5B73703BE20577BF2EF /* DMLRaindropRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLRaindropRefreshControl.m; path = Classes/DMLRaindropRefreshControl.m; sourceTree = "<group>"; };
+		CAAF41E9A404D5B73703BE20577BF2EF /* DMLRaindropHeaderRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLRaindropHeaderRefreshControl.m; path = Classes/DMLRaindropHeaderRefreshControl.m; sourceTree = "<group>"; };
 		CD0799BB500F75019954F20434A4457B /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
 		CD7796E0B84D08F3954CB2285480571B /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
 		CFD76FEE6E1AF61A1DAEE18D266C6423 /* DMLCollectionHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLCollectionHeaderView.h; path = Classes/DMLCollectionHeaderView.h; sourceTree = "<group>"; };
@@ -293,7 +293,6 @@
 				6A06433F80093BADBE67BFF332FBA5A5 /* Resources */,
 				12268FE51AA8EFF05CCE7DEF196EC193 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -437,8 +436,8 @@
 		C9853E55B4C0B1653CA669D97BDED263 /* DMLRaindropRefreshControl */ = {
 			isa = PBXGroup;
 			children = (
-				802C0F389DD825A5AD42C08DA47BCF79 /* DMLRaindropRefreshControl.h */,
-				CAAF41E9A404D5B73703BE20577BF2EF /* DMLRaindropRefreshControl.m */,
+				802C0F389DD825A5AD42C08DA47BCF79 /* DMLRaindropHeaderRefreshControl.h */,
+				CAAF41E9A404D5B73703BE20577BF2EF /* DMLRaindropHeaderRefreshControl.m */,
 			);
 			name = DMLRaindropRefreshControl;
 			sourceTree = "<group>";
@@ -553,7 +552,7 @@
 				68CBCC7B506541D8AA2F98920F03CE33 /* DMLCollectionHeaderView.h in Headers */,
 				829CDEE2C6D9052ED03730A873EF8D83 /* DMLCollectionViewCell.h in Headers */,
 				5C140275BCCC13D1098BA11E05960518 /* DMLImageHeaderRefreshControl.h in Headers */,
-				65C9ED88E6ECB41F209B739DB1BA22E8 /* DMLRaindropRefreshControl.h in Headers */,
+				65C9ED88E6ECB41F209B739DB1BA22E8 /* DMLRaindropHeaderRefreshControl.h in Headers */,
 				811698907B1F056FDB418E0A382D3674 /* DMLSegmentedControl.h in Headers */,
 				6CEA9F83220338A8F10C1BFF3AB8BA76 /* DMLSlider.h in Headers */,
 				D162E45216424AEF67B00A4C8EA31791 /* DMLWidget-umbrella.h in Headers */,
@@ -692,7 +691,7 @@
 				25A21D3CEF48D0F98C883CDBC35E702E /* DMLCollectionHeaderView.m in Sources */,
 				41DED06B71B496F7AFA5786900F43B5C /* DMLCollectionViewCell.m in Sources */,
 				54FE49D1A832556E067221F7589E3109 /* DMLImageHeaderRefreshControl.m in Sources */,
-				24696F56AB2B8C9C92497D3A06D6E4F4 /* DMLRaindropRefreshControl.m in Sources */,
+				24696F56AB2B8C9C92497D3A06D6E4F4 /* DMLRaindropHeaderRefreshControl.m in Sources */,
 				07240872253C55911CA0F5D330D87B8C /* DMLSegmentedControl.m in Sources */,
 				BE8CDA669E12C6E0FDEB5EBC5CFF184A /* DMLSlider.m in Sources */,
 				B74EE920CE61318C95784D8BB8F84768 /* DMLWidget-dummy.m in Sources */,

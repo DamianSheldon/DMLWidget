@@ -70,9 +70,9 @@ Pod::Spec.new do |s|
         imageheaderrefreshcontrol.dependency 'MJRefresh', '~> 3.1.15.3'
     end
 
-    s.subspec 'DMLRaindropRefreshControl' do |raindroprefreshcontrol|
-        raindroprefreshcontrol.source_files = 'Classes/**/DMLRaindropRefreshControl.{h,m}'
-        raindroprefreshcontrol.dependency 'MJRefresh', '~> 3.1.15.3'
+    s.subspec 'DMLRaindropHeaderRefreshControl' do |raindropheaderrefreshcontrol|
+        raindropheaderrefreshcontrol.source_files = 'Classes/**/DMLRaindropHeaderRefreshControl.{h,m}'
+        raindropheaderrefreshcontrol.dependency 'MJRefresh', '~> 3.1.15.3'
     end
 
 end

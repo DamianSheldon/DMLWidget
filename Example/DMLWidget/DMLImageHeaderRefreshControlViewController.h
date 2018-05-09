@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MJRefresh/MJRefreshHeader.h>
 
 
 @interface DMLImageHeaderRefreshControlViewController : UITableViewController
+
+@property (nonatomic) MJRefreshHeader *refreshHeader;
 
 - (void)loadNewData;
 
