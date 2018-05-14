@@ -7,6 +7,7 @@
 //
 
 #import <DMLWidget/DMLImageHeaderRefreshControl.h>
+#import <DMLWidget/DMLRaindropHeaderRefreshControl.h>
 
 #import "DMLMainViewController.h"
 #import "DMLSegmentedControlViewController.h"
@@ -94,6 +95,13 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
         }
 
         case DMLWidgetElementRaindropHeaderRefreshControl: {
+            DMLHeaderRefreshControlViewController *viewController = [DMLHeaderRefreshControlViewController new];
+
+            DMLRaindropHeaderRefreshControl *raindropHeaderRefreshControl = [DMLRaindropHeaderRefreshControl headerWithRefreshingTarget:viewController refreshingAction:@selector(loadNewData)];
+
+            viewController.refreshHeader = raindropHeaderRefreshControl;
+
+            vc = viewController;
             break;
         }
 
@@ -142,7 +150,8 @@ typedef NS_ENUM(NSInteger, DMLWidgetElement) {
             @(DMLWidgetElementCollectionCell) : @"CollectionCell",
             @(DMLWidgetElementSegmentedControl) : @"SegmentedControl",
             @(DMLWidgetElementSlider) : @"Slider",
-            @(DMLWidgetElementImageHeaderRefreshControl) : @"ImageHeaderRefreshControl"
+            @(DMLWidgetElementImageHeaderRefreshControl) : @"ImageHeaderRefreshControl",
+            @(DMLWidgetElementRaindropHeaderRefreshControl) : @"RaindropHeaderRefreshControl"
         };
     }
     return _elementNames;

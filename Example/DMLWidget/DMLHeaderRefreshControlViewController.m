@@ -65,13 +65,16 @@
 
 - (void)loadNewData
 {
-    NSInteger count = 5 + arc4random_uniform(5);
-    for (NSInteger i = 0; i < count; i++) {
-        [self.data insertObject:[self partialRandomString] atIndex:0];
-    }
+    NSInteger delayInSeconds = 1 + arc4random_uniform(5);
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSInteger count = 5 + arc4random_uniform(5);
+        for (NSInteger i = 0; i < count; i++) {
+            [self.data insertObject:[self partialRandomString] atIndex:0];
+        }
 
-    [self.tableView reloadData];
-    [self.tableView.mj_header endRefreshing];
+        [self.tableView reloadData];
+        [self.tableView.mj_header endRefreshing];
+    });
 }
 
 #pragma mark - Getter
@@ -82,7 +85,7 @@
         _data = [NSMutableArray arrayWithCapacity:0];
 
         // Prepopulate one screen data
-        NSInteger count = (NSInteger)ceil(CGRectGetHeight(self.view.frame) / self.tableView.rowHeight);
+        NSInteger count = (NSInteger)ceil(CGRectGetHeight(self.view.frame) / self.tableView.rowHeight) - 10;
         for (NSInteger i = 0; i < count; i++) {
             [_data addObject:[self partialRandomString]];
         }
